@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: 0.0550em;
+}
+
+html {
+    overflow-y: scroll;
+    background-color: hsl(64, 87%, 95%);
+}
+
+p {
+    margin: 15px;
+    padding: 10px;
+}
+
+h1 h2 h3 {
+    margin: 15px;
+    color: black;
+    padding: 15px;
+}
+
+.title h2, .titletips h2 {
+
+    font-size: 42px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+.title h3, .titletips h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reviews h3 {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.tips {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    max-width: 75%;
+}
+.tips h2 {
+    font-size: 23px;
+}
+
+.pictures {
+    width: 250px;
+}
+
+.people img {
+    padding: 15px;
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.cityName {
+    font-weight: bold;
+}
+
+.description {
+    padding: 10px;
+}
+
+.description h3 {
+    margin-left: 15px;
+}
+
+.pictures {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.pictures img, .poi img {
+    border-radius: 90%;
+}
+
+.people {
+    border: 1px solid lightslategrey;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.people img {
+    display: block;
+    float: left;
+}
+
+.people h4 {
+    margin-top: 1rem;
+}
+
+.title {
+    padding: 10px;
+}
+
+.titletips {
+    padding: 15px;
+}
+
+.head {
+    margin-left: 11%;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+#pagewrapper {
+    width: 80%;
+    border: 1px solid lightgrey;
+    margin: 0.75rem auto;
+}
+
+footer {
+    clear: both;
+}
+
+/* Primary navigation */
+
+#primarynav {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 15px;
+}
+#primarynav li {
+    list-style: none;
+    display: inline-block;
+}
+
+#primarynav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    border-right: 1px solid white;
+    min-width: 100px;
+}
+#primarynav li:first-child a {
+    border-left: 1px solid white;
+}
+
+#primarynav a:hover {
+    color: #D3A1A1;
+}
+/* Secondary navigation menu */
+
+#secondarynav a {
+    display: block;
+    padding: 0.25rem;
+    color: #1b3e3e;
+    text-decoration: none;
+    font-weight: bold;
+}
+#secondarynav a:hover {
+    text-decoration: underline;
+}
+
+#secondarynav ul {
+    margin-top: 1.5rem;
+}
+
+#secondarynav li {
+    list-style: none;
+    border-bottom: 2px solid #1b3e3e;
+    width: 80%;
+}
+
+#secondarynav li:first-child {
+    border-top: 2px solid #1B3E3E;
+}
+/* Two columns layout */
+
+#rightcol {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+#leftcol {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+#content {
+    padding: 15px;
+}
+
+#content h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#content h3 {
+    margin-bottom: 0.5rem;
+}
+
+#placeslist, .placeslist li {
+    list-style: none;
+    margin-left: 1.4rem;
+}
+
+#placeslist, .placeslist ul {
+    margin-top: 0.5rem;
+}
+
+#breadcrumbs {
+    margin-top: 0.5rem;
+    font-size: 13px;
+}
+
+#services {
+    display: inline-block;
+}
+
+#services img {
+    margin-right: 2rem;
+}
+
+#headerlinks {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    text-align: right;
+}
+
+#headerlinks li {
+    display: inline-block;
+    list-style: none;
+}
+
+#footerlinks {
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    padding: 10px;
+}
+
+#footerlinks li {
+    display: inline-block;
+    list-style: none;
+}
+
+#footerlinks a, #headerlinks a{
+    color: #0000ff;
+    text-decoration: none;
+}
+#footerlinks a:hover, #headerlinks a:hover {
+    font-weight: bold;
+}
+
+#gallery, #srimages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.poi {
+    width: 300px;
+    margin: 1rem 0.25rem;
+    background-color: rgb(201, 236, 236);
+    padding: 1rem;
+    border: 1px solid lightgray;
+}
+
+.poi h3 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.placeslist h4 {
+    text-align: center;
+}
